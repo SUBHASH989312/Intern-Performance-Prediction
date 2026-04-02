@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load model
-model = joblib.load("../Sprint4/intern_performance_model.pkl")
+model = joblib.load("intern_performance_model_v2.pkl")
 
 # Sample test data (same structure)
 columns = [
